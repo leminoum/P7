@@ -10,9 +10,7 @@ Original file is located at
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, jsonify
 import json
-import requests
 import pandas as pd
-import streamlit as st
 import numpy as np
 import pickle
 from sklearn.neighbors import KDTree
